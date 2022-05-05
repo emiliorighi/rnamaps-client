@@ -1,4 +1,4 @@
-export default function histoGram(fD, d3, ref){
+function histoGram(fD, d3, ref){
     var hG={},    hGDim = {t: 60, r: 0, b: 30, l: 0};
     hGDim.w = 500 - hGDim.l - hGDim.r, 
     hGDim.h = 300 - hGDim.t - hGDim.b;
